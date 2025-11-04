@@ -5,6 +5,8 @@ import icon_3 from "../images/featured-03.png";
 import icon_4 from "../images/featured-04.png";
 import "./HomePage.css";
 import TrandingSection from "../Component/TrandingSection";
+import Top from "../Component/Top";
+import Category from "../Component/Category";
 
 function Home() {
   return (
@@ -35,7 +37,7 @@ function Home() {
               alt="banner"
             />
             <p className="para">$22</p>
-            <span>-40%</span>
+            <span className="dis">-40%</span>
           </div>
         </div>
         <div className="featureCard">
@@ -69,7 +71,9 @@ function Home() {
         </div>
         
       </div>
-    <TrandingSection />   
+    <TrandingSection />
+    <Top />   
+    <Category />
       </>
   );
 }

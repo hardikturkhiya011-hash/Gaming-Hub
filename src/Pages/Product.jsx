@@ -2,8 +2,12 @@ import React from 'react'
 
 function Product() {
   return (
-    <div>Product</div>
+    <>
+    <div className="div">
+      product
+    </div>
+    </>
   )
 }
 
-export default Product
+export default Product;

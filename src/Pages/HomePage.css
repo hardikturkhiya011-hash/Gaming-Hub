@@ -102,7 +102,7 @@ input {
   font-size: 20px;
   font-weight: 800;
 }
-span {
+.dis {
   position: absolute;
   bottom: -20px;
   left: -40px;
