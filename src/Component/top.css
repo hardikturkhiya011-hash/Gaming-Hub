@@ -14,9 +14,10 @@
     margin: 0px 120px;
 }
 .tp{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
     color: #ee626b;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
 }
 .mp{
@@ -77,22 +78,26 @@
     width: 160px;
 }
 .ad{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
     /* margin: 12px 45px; */
     color: #888;
-    font-size: 14px;
+    font-size: 17px;
+    font-weight: 700;
     /* line-height: 15px; */
 }
 .top_but{
     margin: 12px 0px;
 }
 .vb{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
     /* margin: -12px 40px; */
     color: black;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
     margin: 5px 0px;
 }
 .btn_tops{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
     position: relative;
     /* right: -0px; */
     bottom: -10px;

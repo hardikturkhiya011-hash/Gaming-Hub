@@ -1,0 +1,15 @@
+.footer{
+    background-image: url(../images/Shop-bg.jpg);
+    margin-top: 120px;
+    padding: 10px 20px 100px;
+    border-top-left-radius: 240px;
+    border-top-right-radius: 240px;
+    text-align: center;
+}
+.copy{
+    font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+    letter-spacing: 1.5;
+}

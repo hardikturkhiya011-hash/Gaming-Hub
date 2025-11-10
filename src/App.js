@@ -6,6 +6,7 @@ import Shop from "./Pages/Shop";
 import Product from "./Pages/Product";
 import Contact from "./Pages/Contact";
 import Sign from "./Pages/Sign";
+import Footer from "./Component/Footer";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/sign" element={<Sign />} />
       </Routes>
+      < Footer/>
     </div>
+    
   );
 }
 

@@ -7,6 +7,7 @@ import "./HomePage.css";
 import TrandingSection from "../Component/TrandingSection";
 import Top from "../Component/Top";
 import Category from "../Component/Category";
+import Footer from "../Component/Footer";
 
 function Home() {
   return (
@@ -21,11 +22,11 @@ function Home() {
               gaming websites. You can download and use this layout for
               commercial purposes. Please tell your friends about TemplateMo.
             </p>
-            <div className="button">
+            <div className="home-btn">
               <input
                 type="text"
                 placeholder="Type Something"
-                className="input"
+                className="input-home"
               />
               <button className="btn">Search Now</button>
             </div>
@@ -74,6 +75,7 @@ function Home() {
     <TrandingSection />
     <Top />   
     <Category />
+    {/* <Footer/> */}
       </>
   );
 }
